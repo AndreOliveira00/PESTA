@@ -2,7 +2,10 @@
 SISTEMA DE  CONTROLO DO MOVIMENTO DE UMA CLARABOIA
 
 Este repositório contem o poster ilustrativo do projeto desenvolvido durante o estágio de fim de Licenciatura em Engenharia Eletrotécnica e de Computadores pelo Instituto Superior de Engenharia do Porto.
-Contem ainda parte do código desenvolvido para controlo de todos os dispositivos incorporados na rede daisy chain.
+Contem ainda parte do código desenvolvido em: 
+"...STM32CubeExpansion_SPN3\Projects\Multi\Examples\MotionControl\IHM03A1_ExampleFor1Motor" para controlo de todos os dispositivos incorporados na rede daisy chain.
+Imagens ilustrativas da PCB final e alguns testes efetuados para validação da comunicação SPI, teste de circuitos, respostas temporais, EMI e obtenção de constantes motoras.
+Preço do desenvolvimento das duas PCBs associadas
 
 RESUMO DO PROJETO:
 
