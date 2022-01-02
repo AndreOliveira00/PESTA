@@ -1,0 +1,158 @@
+
+**** 06/07/21 15:22:21 ******* PSpice 17.4.0 (Nov 2018) ******* ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-bias"  [ C:\Users\Andre\Desktop\Test\test-pspicefiles\schematic1\bias.sim ] 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "bias.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+.LIB "../../../test-pspicefiles/test.lib" 
+* From [PSPICE NETLIST] section of C:\Users\Andre\AppData\Roaming\SPB_Data\cdssetup\OrCAD_PSpice\17.4.0\PSpice.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.DC LIN V_V1 -30 +30 1 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source TEST
+R_R1         0 N21268  10k TC=0,0 
+C_C1         0 N14709  4.7u  TC=0,0 
+R_RL         0 N14709  6R TC=0,0 
+V_V1         N14763 0 -24Vdc
+X_Q1         N14763 N21268 N14709 Si1433DH
+D_D1         N21268 N14709 ZY15GP 
+
+**** RESUMING bias.cir ****
+.END
+
+**** 06/07/21 15:22:21 ******* PSpice 17.4.0 (Nov 2018) ******* ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-bias"  [ C:\Users\Andre\Desktop\Test\test-pspicefiles\schematic1\bias.sim ] 
+
+
+ ****     Diode MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               ZY15GP          X_Q1.DBD        
+          IS   10.000000E-15    1.000000E-12 
+         ISR  395.250000E-09                 
+          BV   13.801          30.2          
+         IBV     .051734                     
+          RS    1.000000E-03     .1          
+          TT    5.000000E-09   60.000000E-09 
+         CJO    1.000000E-12   60.000000E-12 
+          VJ     .75             .38         
+           M     .3333           .38         
+
+
+**** 06/07/21 15:22:21 ******* PSpice 17.4.0 (Nov 2018) ******* ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-bias"  [ C:\Users\Andre\Desktop\Test\test-pspicefiles\schematic1\bias.sim ] 
+
+
+ ****     MOSFET MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_Q1.PMOS       X_Q1.NMOS       
+               PMOS            NMOS            
+       LEVEL    3               3            
+         TPG   -1              -1            
+           L  100.000000E-06  100.000000E-06 
+           W  100.000000E-06  100.000000E-06 
+         VTO   -3.820649        3.213299     
+          KP   50.000000E-09   41.437730E-06 
+       GAMMA    3.121473        2.502746     
+         PHI     .831948         .809092     
+      LAMBDA    0               0            
+          RS     .04                         
+          IS    0              10.000000E-15 
+          JS    0               0            
+          PB     .8              .8          
+        PBSW     .8              .8          
+          CJ    1.205117E-03  966.243300E-06 
+        CJSW    0               0            
+        CGSO    0               0            
+        CGDO    0               0            
+        CGBO    0               0            
+        NSUB  140.000000E+15   90.000000E+15 
+         NFS  800.000000E+09    1.000000E+12 
+         TOX   50.000000E-09   50.000000E-09 
+          XJ  500.000000E-09    0            
+          UO  400                            
+       UCRIT   10.000000E+03   10.000000E+03 
+       DELTA     .1                          
+         ETA  100.000000E-06                 
+       KAPPA     .11                         
+      DIOMOD    1               1            
+         VFB    0               0            
+        LETA    0               0            
+        WETA    0               0            
+          U0    0               0            
+        TEMP    0               0            
+         VDD    5               5            
+       XPART    0               0            
+
+
+**** 06/07/21 15:22:21 ******* PSpice 17.4.0 (Nov 2018) ******* ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-bias"  [ C:\Users\Andre\Desktop\Test\test-pspicefiles\schematic1\bias.sim ] 
+
+
+ ****     Resistor MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_Q1.RTEMP      
+           R    1            
+         TC1    7.000000E-03 
+         TC2    5.500000E-06 
+
+
+
+          JOB CONCLUDED
+
+**** 06/07/21 15:22:21 ******* PSpice 17.4.0 (Nov 2018) ******* ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-bias"  [ C:\Users\Andre\Desktop\Test\test-pspicefiles\schematic1\bias.sim ] 
+
+
+ ****     JOB STATISTICS SUMMARY
+
+
+******************************************************************************
+
+
+
+  Total job time (using Solver 1)   =         .03
+

@@ -1,0 +1,7 @@
+* source TEST
+R_R1         0 N21268  10k TC=0,0 
+C_C1         0 N14709  4.7u  TC=0,0 
+R_RL         0 N14709  6R TC=0,0 
+V_V1         N14763 0 -24Vdc
+X_Q1         N14763 N21268 N14709 Si1433DH
+D_D1         N21268 N14709 ZY15GP 

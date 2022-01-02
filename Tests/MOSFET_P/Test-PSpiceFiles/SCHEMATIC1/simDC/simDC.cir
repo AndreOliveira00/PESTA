@@ -1,0 +1,20 @@
+** Profile: "SCHEMATIC1-simDC"  [ C:\Users\Andre\Desktop\Test\Test-PSpiceFiles\SCHEMATIC1\simDC.sim ] 
+
+** Creating circuit file "simDC.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+.LIB "../../../test-pspicefiles/test.lib" 
+* From [PSPICE NETLIST] section of C:\Users\Andre\AppData\Roaming\SPB_Data\cdssetup\OrCAD_PSpice\17.4.0\PSpice.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.TRAN  0 1000ns 0 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+.END

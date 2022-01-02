@@ -1,0 +1,58 @@
+
+**** 06/01/21 15:32:41 ******* PSpice 17.4.0 (Nov 2018) ******* ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-simDC"  [ C:\Users\Andre\Desktop\Test\Test-PSpiceFiles\SCHEMATIC1\simDC.sim ] 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "simDC.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+.LIB "../../../test-pspicefiles/test.lib" 
+* From [PSPICE NETLIST] section of C:\Users\Andre\AppData\Roaming\SPB_Data\cdssetup\OrCAD_PSpice\17.4.0\PSpice.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.TRAN  0 1000ns 0 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source TEST
+V_V1         N14763 0 24Vdc
+R_R1         0 N18164  10k TC=0,0 
+C_C1         0 N14709  47u  TC=0,0 
+R_R2         0 N14709  10R TC=0,0 
+X_M4         N14763 N18164 N14709 Si4483EDY
+D_D1         N18164 N14709 ZY6V2GP 
+
+**** RESUMING simDC.cir ****
+.END
+
+WARNING(ORPSIM-15223): Library file C:\Users\Andre\Desktop\Test\test-pspicefiles\test.lib has changed since index file test.ind was created.
+
+WARNING(ORPSIM-15227): The timestamp changed from Tue Jun  1 15:32:01 2021 to Tue Jun  1 15:32:39 2021.
+
+INFO(ORPSIM-15422): Making new index file test.ind for library file test.lib.
+
+Index has 1 entries from 1 file(s).
+
+
+**** EXPANSION OF SUBCIRCUIT X_M4 ****
+X_M4.M1 X_M4.3 X_M4.5 N14709 N14709 X_M4.PMOS W 6510918u L 10.50m
+-----------------------------------------------------------$
+ERROR(ORPSIM-16148): Length must be less than 0.01 meter
+

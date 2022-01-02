@@ -1,0 +1,55 @@
+("si1433dh"
+    ("Creator"	"Device property file created by Property Controller")
+    ("device_info"
+        ("SYMBOL_NAME"	"pmos")
+        ("MODEL_TYPE"	"518")
+    )
+    ("model_params"
+        ("level_0"
+        )
+    )
+    ("device_pre_smoke"
+        ("TERM_ID"	"D")
+        ("TERM_IG"	"G")
+        ("NODE_VD"	"D")
+        ("NODE_VG"	"G")
+        ("NODE_VS"	"S")
+        ("DERATE_TYPE"	"PMOS")
+    )
+    ("device_max_ops"
+        ("IG"	"100n")
+        ("ID"	"1.9")
+        ("VDS"	"30")
+        ("VGSF"	"20")
+        ("VGSR"	"20")
+        ("PDM"	"0.95")
+        ("TJ"	"150")
+    )
+)
+("si4483edy"
+    ("Creator"	"Device property file created by Property Controller")
+    ("device_info"
+        ("SYMBOL_NAME"	"pmos")
+        ("MODEL_TYPE"	"518")
+    )
+    ("model_params"
+        ("level_0")
+    )
+    ("device_pre_smoke"
+        ("TERM_ID"	"D")
+        ("TERM_IG"	"G")
+        ("NODE_VD"	"D")
+        ("NODE_VG"	"G")
+        ("NODE_VS"	"S")
+        ("DERATE_TYPE"	"PMOS")
+    )
+    ("device_max_ops"
+        ("IG"	"10m")
+        ("ID"	"10")
+        ("VDS"	"30")
+        ("VGSF"	"25")
+        ("VGSR"	"25")
+        ("PDM"	"1.5")
+        ("TJ"	"150")
+    )
+)
