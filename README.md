@@ -1,4 +1,4 @@
-# PESTA
+# Skylight Control System
 SISTEMA DE  CONTROLO DO MOVIMENTO DE UMA CLARABOIA
 
 Este repositório contem o poster ilustrativo do projeto desenvolvido durante o estágio de fim de Licenciatura em Engenharia Eletrotécnica e de Computadores pelo Instituto Superior de Engenharia do Porto.
