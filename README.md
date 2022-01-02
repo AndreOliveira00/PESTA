@@ -17,4 +17,4 @@ implementação de uma comunicação RS-485 entre os dois escravos fruto de um s
 Para outros esclarecimentos contacte pelo email 1181045@isep.ipp.pt.
 
 Notas:
-O desenvolvimento do software foi feito em "...STM32CubeExpansion_SPN3\Projects\Multi\Examples\MotionControl\IHM03A1_ExampleFor1Motor"
+  O desenvolvimento do software foi feito em: "...STM32CubeExpansion_SPN3\Projects\Multi\Examples\MotionControl\IHM03A1_ExampleFor1Motor"
